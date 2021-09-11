@@ -8,7 +8,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar">
+        <nav className="navbarr">
             <div className="navbar-logo" onClick={up}>Logo
             
             </div>
