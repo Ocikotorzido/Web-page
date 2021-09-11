@@ -8,7 +8,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbarr">
+        <nav className="navbarr bg-dark text-white fs-3">
             <div className="navbar-logo" onClick={up}>Logo
             
             </div>
