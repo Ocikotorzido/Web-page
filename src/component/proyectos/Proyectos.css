@@ -1,3 +1,4 @@
 img:hover{
     border: 5px solid #ffff;
+    cursor: pointer;
 }

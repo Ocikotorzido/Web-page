@@ -1,14 +1,14 @@
-.navbarr{
+.fijo{
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px;
     padding-left: 50px;
-    font-size: 10px;
-}
-.navbar-logo{
-    height: 60px;
-    line-height: 60px;
-    color: white;
+    padding-right: 30px;
     cursor: pointer;
+}
+
+.pointer:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background: #B43B41;
 }
