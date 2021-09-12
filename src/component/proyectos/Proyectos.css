@@ -2,3 +2,9 @@ img:hover{
     border: 5px solid #ffff;
     cursor: pointer;
 }
+
+.logo{
+    width: 3vw;
+    height: 3vw;
+
+}
