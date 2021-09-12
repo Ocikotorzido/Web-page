@@ -11,26 +11,37 @@ const Proyectos = () => {
                     <h1>Titulo</h1>
                     <p>Hola</p>
                     <img className="img-fluid" src={prueba}/>
-                    <img className="img-fluid logo mt-2" src={git}/>                </div>
+                    <a href="">
+                        <img className="img-fluid logo mt-2" src={git}/>    
+                    </a>  
+                </div>
 
                 <div className=" col-lg-4 text-center">
                     <h1>Titulo</h1>
                     <p>Hola</p>
                     <img className="img-fluid" src={prueba}/>
-                    <img className="img-fluid logo mt-2" src={git}/>                </div>
+                    <a href="">
+                        <img className="img-fluid logo mt-2" src={git}/>    
+                    </a>                 
+                </div>
                 
                 <div className="col-lg-4 text-center">
                     <h1>Titulo</h1>
                     <p>Hola</p>
                     <img className="img-fluid" src={prueba}/>
-                    <img className="img-fluid logo mt-2" src={git}/>
+                    <a href="">
+                        <img className="img-fluid logo mt-2" src={git}/>    
+                    </a>  
                 </div>
                 <div className="col-lg-4 text-center mt-5"></div>
                 <div className="col-lg-4 text-center mt-5">
                     <h1>Titulo</h1>
                     <p>Hola</p>
                     <img className="img-fluid" src={prueba}/>
-                    <img className="img-fluid logo mt-2" src={git}/>                </div>
+                    <a href="">
+                        <img className="img-fluid logo mt-2" src={git}/>    
+                    </a>           
+                </div>
                 <div className="col-lg-4 text-center mt-5"></div>
             </div>
             
