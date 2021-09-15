@@ -2,6 +2,7 @@ import React from 'react'
 import "./Proyectos.css";
 import prueba from "../../media/prueba.jpg";
 import git from "../../media/github.png";
+import fonicular from "../../media/github.png";
 import { Link, Redirect } from 'react-router-dom';
 
 
@@ -14,8 +15,8 @@ const Proyectos = () => {
                     <h1>Titulo</h1>
                     <p>Hola</p>
                     <img className="img-fluid" src={prueba}/>
-                    <a href="httpsgithub.comOcikotorzidocongenial-funicular">
-                        <img className="img-fluid logo mt-2" src={git}/>    
+                    <a href="https://github.com/Ocikotorzido/Web-page">
+                        <img className="img-fluid logo mt-2" src={fonicular}/>    
                     </a>                  
                 </div>
 
