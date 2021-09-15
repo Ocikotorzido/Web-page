@@ -18,7 +18,7 @@ ReactDOM.render(
                 <Footer/>
             </Route>
             <Route exact path="/formulario">
-                <Navbar/>
+                
             </Route>
         </Switch>
     </BrowserRouter>,

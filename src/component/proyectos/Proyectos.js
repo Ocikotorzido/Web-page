@@ -2,10 +2,11 @@ import React from 'react'
 import "./Proyectos.css";
 import prueba from "../../media/prueba.jpg";
 import git from "../../media/github.png";
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 
 
 const Proyectos = () => {
+
     return (
         <div className="container p-5">
             <div className="row">
@@ -13,16 +14,16 @@ const Proyectos = () => {
                     <h1>Titulo</h1>
                     <p>Hola</p>
                     <img className="img-fluid" src={prueba}/>
-                    <Link to="/Formulario">
+                    <a href="httpsgithub.comOcikotorzidocongenial-funicular">
                         <img className="img-fluid logo mt-2" src={git}/>    
-                    </Link>                  
+                    </a>                  
                 </div>
 
                 <div className=" col-lg-4 text-center">
                     <h1>Titulo</h1>
                     <p>Hola</p>
                     <img className="img-fluid" src={prueba}/>
-                    <Link to="">
+                    <Link to="/Formulario">
                         <img className="img-fluid logo mt-2" src={git}/>    
                     </Link>           
                 </div>
