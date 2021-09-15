@@ -2,7 +2,10 @@ import React from 'react'
 import "./Proyectos.css";
 import prueba from "../../media/prueba.jpg";
 import git from "../../media/github.png";
-import fonicular from "../../media/github.png";
+import fonicular from "../../media/fonicular.png";
+import congenial from "../../media/congenial.jpg"
+import facial from "../../media/facial.jpg"
+import neural from "../../media/neural.jpg"
 import { Link, Redirect } from 'react-router-dom';
 
 
@@ -14,28 +17,28 @@ const Proyectos = () => {
                 <div className="col-lg-4 text-center">
                     <h1>Titulo</h1>
                     <p>Hola</p>
-                    <img className="img-fluid" src={prueba}/>
+                    <img className="img-fluid" src={congenial}/>
                     <a href="https://github.com/Ocikotorzido/Web-page">
-                        <img className="img-fluid logo mt-2" src={fonicular}/>    
+                        <img className="img-fluid logo mt-2" src={git}/>    
                     </a>                  
                 </div>
 
                 <div className=" col-lg-4 text-center">
                     <h1>Titulo</h1>
                     <p>Hola</p>
-                    <img className="img-fluid" src={prueba}/>
-                    <Link to="/Formulario">
+                    <img className="img-fluid" src={facial}/>
+                    <a href="https://github.com/Ocikotorzido/Face">
                         <img className="img-fluid logo mt-2" src={git}/>    
-                    </Link>           
+                    </a>           
                 </div>
                     
                 <div className="col-lg-4 text-center">
                     <h1>Titulo</h1>
                     <p>Hola</p>
-                    <img className="img-fluid" src={prueba}/>
-                    <Link to="">
+                    <img className="img-fluid" src={neural}/>
+                    <a href="https://github.com/Ocikotorzido/IA">
                         <img className="img-fluid logo mt-2" src={git}/>    
-                    </Link>                  
+                    </a>                  
                 </div>
                 <div className="col-lg-4 text-center mt-5"></div>
                 <div className="col-lg-4 text-center mt-5">
