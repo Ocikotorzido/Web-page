@@ -16,12 +16,12 @@
     z-index: -1;
 }
 
-.cover-container > h1 {
+h1 {
     color: white;
-    font-size: 6vw;
+    font-size: 7vw;
 }
 
-.cover-container >p {
+.letras {
     color: white;
     margin-top: 8px;
     font-size: 2vw;
