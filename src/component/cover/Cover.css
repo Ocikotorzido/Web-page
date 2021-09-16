@@ -18,11 +18,12 @@
 
 h1 {
     color: white;
-    font-size: 7vw;
+    font-size: 9vw;
+    font-size: 8vh;
 }
 
 .letras {
     color: white;
     margin-top: 8px;
-    font-size: 2vw;
+    font-size: 4vh;
 }
