@@ -11,8 +11,8 @@ const Cover = () => {
             <h1>Intelligence</h1>
             <Typed className="letras"
                 strings={[
-                    'Ocikotorzido',
-                    'Fabian Astorga']}
+                    'GitHub: Ocikotorzido',
+                    'Instagram: tio_chokita']}
                 typeSpeed={50}
                 backSpeed={50}
                 loop>
