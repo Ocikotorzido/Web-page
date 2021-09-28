@@ -14,8 +14,8 @@ ReactDOM.render(
             <Route exact path="/">
                 <Navbar/>
                 <Cover/>
-                <Contenido/>
                 <Proyectos/>
+                <Contenido/>
                 <Footer/>
             </Route>
         </Switch>

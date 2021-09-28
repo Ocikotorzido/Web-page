@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Proyectos.css";
-import prueba from "../../media/prueba.jpg";
 import git from "../../media/github.png";
 import mecanica from "../../media/mecanica.jpg";
 import { Link, Redirect } from 'react-router-dom';

@@ -8,11 +8,11 @@ const Contenido = () => {
         <div className="container">
             <div className="fondo row">
             
-                <div className="col-lg-4 d-flex justify-content-center">
+                <div className="col-lg-4 d-flex justify-content-center p-5">
                     <img className="img-fluid  imagen rounded-circle" src={imagen}></img>
                 </div>
                 <div className="col-lg-6">
-                <Typed className="text-dark fs-2"
+                <Typed className="text-dark fs-2 d-flex justify-content-center"
                     strings={[
                         'Hola, soy Fabian Astorga',
                         'Hi, I´m Fabian Astorga']}

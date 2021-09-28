@@ -9,14 +9,7 @@ const Cover = () => {
         <div className="cover-container text-center mt-5">
             <video className="video" src={planeta} autoPlay loop muted />
             <h1>Intelligence</h1>
-            <Typed className="letras"
-                strings={[
-                    'GitHub: Ocikotorzido',
-                    'Instagram: tio_chokita']}
-                typeSpeed={50}
-                backSpeed={50}
-                loop>
-            </Typed>
+            
         </div>
     )
 }
