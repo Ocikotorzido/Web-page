@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
     return (
-        <footer className="d-flex flex-wrap justify-content-center align-items-center border-top bg-dark">
+        <footer className="d-flex flex-wrap justify-content-center align-items-center border-top bg-dark text-center">
             <p className="col-md-4 mb-0 text-white">© 2021 Company, Inc</p>
         </footer>
     )

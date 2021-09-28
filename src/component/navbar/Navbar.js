@@ -13,9 +13,7 @@ const Navbar = () => {
             <div className="container-fluid"><a onClick={up}>Logo</a>
                 <div class="collapse navbar-collapse  d-flex justify-content-end">
                     <ul className="navbar-nav px-2">
-                        <li className="nav-item px-2 pointer rounded-3"><Link to="/" className="nav-link text-white fs-5">Inicio</Link></li>
-                        <li className="nav-item px-2 pointer rounded-3"><Link to="/about" className="nav-link text-white fs-5">Sobre mi</Link></li>
-                    </ul>
+                        <li className="nav-item px-2 pointer rounded-3"><Link to="/" className="nav-link text-white fs-5">Inicio</Link></li>                    </ul>
                 </div>
             </div>
         </nav>

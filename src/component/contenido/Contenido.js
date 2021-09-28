@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Contenido.css"
 import imagen from "../../media/ociko.png"
+import Typed from 'react-typed';
 
 const Contenido = () => {
     return (
@@ -10,13 +11,15 @@ const Contenido = () => {
                 <div className="col-lg-4 d-flex justify-content-center">
                     <img className="img-fluid  imagen rounded-circle" src={imagen}></img>
                 </div>
-                <div className="col-lg-4">
-                    <h1 className="text-dark">Formacion</h1>
-                    <p>Estudiante de la carrera Analista programador en el Intituto Profesional Duoc UC</p>
-                </div>
-                <div className="col-lg-4">
-                    <h1 className="text-dark">Habilidades</h1>
-                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T.</p>
+                <div className="col-lg-6">
+                <Typed className="text-dark fs-2"
+                    strings={[
+                        'Hola, soy Fabian Astorga',
+                        'Hi, I´m Fabian Astorga']}
+                    typeSpeed={50}
+                    backSpeed={50}
+                    loop>
+                </Typed>                
                 </div>
             </div>    
         </div>
