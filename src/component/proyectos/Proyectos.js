@@ -9,8 +9,8 @@ const Proyectos = () => {
 
     return (
         <div className="">
-        <div className="text-center bg-dark fs-1 text-white altura d-flex justify-content-center align-items-center">Proyectos</div>
-        <div class="card-group p-5">
+        <div className="text-center fs-1 text-dark altura d-flex justify-content-center align-items-center">Proyectos</div>
+        <div class="card-group ">
         <div class="card">
             <img class="card-img-top" src={mecanica} alt="Card image cap"/>
             <div class="card-body">
