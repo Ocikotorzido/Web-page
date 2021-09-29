@@ -10,11 +10,8 @@ const Navbar = () => {
     
     return (
        <nav className="fijo navbar navbar-expand text-white bg-dark fs-3">
-            <div className="container-fluid"><a onClick={up}>Logo</a>
-                <div class="collapse navbar-collapse  d-flex justify-content-end">
-                    <ul className="navbar-nav px-2">
-                        <li className="nav-item px-2 pointer rounded-3"><Link to="/" className="nav-link text-white fs-5">Inicio</Link></li>                    </ul>
-                </div>
+            <div className="container-fluid"><a onClick={up}>Ocikotorzido</a>
+                
             </div>
         </nav>
     )
